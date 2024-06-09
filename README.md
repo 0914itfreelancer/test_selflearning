@@ -18,3 +18,12 @@ git push origin master
 
 git remote set-url origin https://[token]@github.com/[username]/[reponame].git
 git push origin master
+
+git add [files]
+git commit -m "message"
+
+git clone [https repo]
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+clip < ~/.ssh/id_ed25519.pub
